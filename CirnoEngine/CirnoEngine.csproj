@@ -14,11 +14,31 @@
     <None Remove="Icon.bmp" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\CirnoEngine.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\CirnoEngine.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\CirnoEngine.runtimeconfig.json" />
+  </ItemGroup>
+  <ItemGroup>
     <EmbeddedResource Include="Icon.ico" />
     <EmbeddedResource Include="Icon.bmp" />
   </ItemGroup>
   <ItemGroup>
     <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\CirnoEngine.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\CirnoEngine.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\CirnoEngine.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\Content\cute_image.xnb" />
+    <None Include="bin\Debug\netcoreapp3.1\MonoGame.Framework.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll" />
   </ItemGroup>
   <ItemGroup>
     <TrimmerRootAssembly Include="Microsoft.Xna.Framework.Content.ContentTypeReader" Visible="false" />
@@ -28,7 +48,6 @@
     <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.0.1641" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Graphics\" />
-    <Folder Include="Input\" />
+    <Folder Include="bin\Release\netcoreapp3.1\" />
   </ItemGroup>
 </Project>
